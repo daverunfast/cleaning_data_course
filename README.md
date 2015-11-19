@@ -39,29 +39,46 @@ The data table "small.table" is the final table written to the disk.
 Subject: The test subject number
 Activity: Activities during data collection, including "WALKING","WALKING\_UPSTAIRS", "WALKING\_DOWNSTAIRS","SITTING", "STANDING", "LAYING"
 
-These signals were used to estimate variables of the feature vector for each pattern:  
+The following variables are signals of feature vector captured.
 '-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
 
 tBodyAcc-XYZ
+
 tGravityAcc-XYZ
+
 tBodyAccJerk-XYZ
+
 tBodyGyro-XYZ
+
 tBodyGyroJerk-XYZ
+
 tBodyAccMag
+
 tGravityAccMag
+
 tBodyAccJerkMag
+
 tBodyGyroMag
+
 tBodyGyroJerkMag
+
 fBodyAcc-XYZ
+
 fBodyAccJerk-XYZ
+
 fBodyGyro-XYZ
+
 fBodyAccMag
+
 fBodyAccJerkMag
+
 fBodyGyroMag
+
 fBodyGyroJerkMag
 
 
 The set of variables that were estimated from these signals are: 
 
 mean(): Mean value
+
 std(): Standard deviation
